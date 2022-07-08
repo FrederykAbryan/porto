@@ -1,0 +1,35 @@
+.mainskill {
+	padding-top: 50px;
+	margin-left: 30px;
+	width: 90%;
+	height: 200px;
+}
+
+.skillbar {
+	border-radius: 10px;
+	width: 100%;
+	background-color: #ddd;
+}
+
+.skills {
+	border-radius: 10px;
+	padding-top: 1px;
+	padding-bottom: 3px;
+}
+
+.html {
+	width: 90%;
+	background-color: lightskyblue;
+}
+.css {
+	width: 80%;
+	background-color: lightskyblue;
+}
+.js {
+	width: 65%;
+	background-color: lightskyblue;
+}
+.php {
+	width: 60%;
+	background-color: lightskyblue;
+}

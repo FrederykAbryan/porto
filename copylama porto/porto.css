@@ -1,0 +1,59 @@
+h3 {
+	color: limegreen;
+}
+
+.row {
+	margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+	padding: 15px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 45%;
+}
+
+/* Clear floats after rows */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Content */
+.content {
+	background-color: rgba(92, 94, 88, 0.192);
+	padding: 2%;
+}
+
+.content:hover {
+	/* background: rgb(44, 133, 139); */
+	/* -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both; */
+	/* animation: shadow-pop-tl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both; */
+	transform: scale(1.1, 1.1);
+	box-shadow: 0 14px 28px rgba(47, 67, 156, 0.25),
+		0 10px 10px rgba(14, 79, 139, 0.22);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+	.row,
+	.row > .column {
+		padding: 14px;
+	}
+	.column {
+		width: 45%;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 90%;
+	}
+}
